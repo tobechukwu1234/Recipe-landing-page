@@ -1,0 +1,127 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.everything{
+  width: 100%;
+  min-height: 100vh;
+  background: hsl(30, 54%, 90%);
+  padding: 10px;
+  font-family: "Outfit", sans-serif;
+  font-weight: <weight>;
+  font-style: normal;
+  
+}
+.start{
+  width: 100%;
+  max-width: 700px;
+  margin: 80px auto 30px;
+  background: hsl(0, 0%, 100%);
+  padding: 30px 30px;
+  border-radius: 15px;
+}
+.img{
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+h1{
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.preparation{
+  background: hsl(330, 100%, 98%);
+  border-radius: 10px;
+  padding: 30px 25px;
+}
+.pretime{
+  font-weight: bold;
+  color: hsl(332, 51%, 32%);
+  
+}
+.ingre h1, .instruct h1, .nutri h1{
+  color: hsl(14, 45%, 36%);
+}
+.amount{
+  font-weight: bold;
+  color: hsl(14, 45%, 36%);
+}
+.number{
+  color: hsl(14, 45%, 36%);
+  
+}
+.dot{
+  color: hsl(332, 51%, 32%);
+}
+
+table{
+  width: 600px;
+  
+}
+table tr{
+  border-bottom: 1px solid hsl(0, 10%, 90%);
+}
+table tr td{
+  padding: 10px;
+ 
+}
+.attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+@media (max-width: 505px){
+  .start{
+    width: 100%;
+    margin: 0 auto 30px;
+    padding: 0;
+    transition: 0.25s ease-in-out;
+  }
+  .everything{
+    background: hsl(0, 0%, 100%);
+    padding: 0;
+    transition: 0.25s ease-in-out;
+  }
+  .img{
+   width: 100%;
+   border-radius: 0;
+   transition: 0.2s ease-in-out;
+  }
+  table{
+    width: 270px;
+    transition: 0.2s ease-in-out;
+    
+  }
+  .amount{
+    padding-left: 70px;
+    transition: 0.2s ease-in-out;
+  }
+  .just{
+    padding: 0 30px;
+    transition: 0.2s ease-in-out;
+  }
+  .help{
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .preparation{
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .ingre{
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .instruct{
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .nutri{
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+}
